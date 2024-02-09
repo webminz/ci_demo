@@ -1,7 +1,7 @@
 name: Testing GH Actions
 on:
-  workflow_dispatch
-  push
+  workflow_dispatch:
+  push:
 jobs:
   pipeline:
     runs-on: ubuntu-latest
